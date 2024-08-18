@@ -1,0 +1,94 @@
+/* 
+Colors used:
+Primary: (white) #FFFFFF;
+Text: (black) #000000;
+Accent: (light blue) #3D6EE1;
+
+Fonts used:
+Family: Serif 
+Heading: Fino 
+Paragraphs: Spectral
+*/
+
+body{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #000000;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+img {
+    width: 100%;
+   src: "../img/logo_png.png"; width:10%; height:auto
+}
+
+a {
+    color: #3D6EE1;
+    text-decoration: none; /* No underlining */
+  }
+    a:hover {
+    color: #0c48d3;
+    ;
+    text-decoration: underline;
+  }
+  a:hover,
+    a:focus {
+  color: #0c48d3;
+  text-decoration: underline;
+    }
+  a:visited { /* visited link */
+    color: purple;
+  }
+  a:active { /* selected link */
+    color: red;
+  }
+
+  .button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: transparent;
+    color: #0c48d3; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #0c48d3;
+    transition: 0.2s opacity;
+  }
+  .button:hover {
+    background-color: #0c48d3;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .button.contact {
+    background-color: transparent;
+    color: #0c48d3;
+    text-transform: uppercase;
+    border: 1px solid #0c48d3;
+  }
+  .button.contact:hover {
+    background-color: #0c48d3;
+    color: #ffffff;
+  }
