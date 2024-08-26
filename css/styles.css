@@ -9,6 +9,17 @@ Family: Serif
 Heading: Fino 
 Paragraphs: Spectral
 */
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .logo {
+    width: 250px;
+}
+  * {
+    box-sizing: border-box;
+  }
 
 body{
     background-color:#FFFFFF;
@@ -40,12 +51,9 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-
-img {
-    width: 100%;
-   src: "../img/logo_png.png"; width:10%; height:auto
+img{
+  width: 100%;
 }
-
 a {
     color: #3D6EE1;
     text-decoration: none; /* No underlining */
@@ -55,8 +63,8 @@ a {
     ;
     text-decoration: underline;
   }
-  a:hover,
-    a:focus {
+  a:hover, 
+  a:focus {
   color: #0c48d3;
   text-decoration: underline;
     }
@@ -93,8 +101,98 @@ a {
     color: #ffffff;
   }
 
-  #my-work{ 
+  #work{ 
     background-color: #ffffff;
     color: black
   }
+.social{
+    text-align: center;
+  }
+ .social a{
+    display: inline-block;
+    margin: 5px;
+ }
+ .social img{
+    width: 50px;
+    height: auto;
+ }
+
+ /* Layout styling */
+ .container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 25px 0;
+  }
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+  #hero h3 {
+    text-align: center; /* Centers text */
+  }
+  #hero h2{
+    text-align: center;
+  }
+  #main h1,h3{
+    text-align: center;
+  }
  
+  #footer h2{
+    text-align: center;
+  }
+  .logo {
+    max-width: 250px;
+  }
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  nav > ul > li > a:visited {
+    color: purple;
+  }
+  nav > ul > li > a:hover{
+    color: #0c48d3;
+  }
+  nav > ul > li > a:active{
+    color: #90b1fd;
+  }
+  nav{
+    display: inline-block;
+    width:100%;
+  }
+  
+  #hero {
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+  header{
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #FFFFFF; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
+}
+header{
+    position: fixed;
+    width: 100%;
+    display:inline-block
+}
+#main {
+    padding-top: 250px;
+  }
+ 
+.image{
+  width: 250px;
+  height: auto;
+}
