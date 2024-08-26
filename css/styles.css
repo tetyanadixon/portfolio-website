@@ -91,6 +91,7 @@ a {
     text-decoration: none;
   }
   .button.contact {
+    display: inline-block;
     background-color: transparent;
     color: #0c48d3;
     text-transform: uppercase;
@@ -107,10 +108,12 @@ a {
   }
 .social{
     text-align: center;
+    margin-top: 7px;
   }
  .social a{
     display: inline-block;
-    margin: 5px;
+    margin: 7px;
+    padding: 3px;
  }
  .social img{
     width: 50px;
