@@ -15,7 +15,7 @@ header {
     padding: 10px 0;
   }
   .logo {
-    width: 250px;
+    width: 200px;
 }
   * {
     box-sizing: border-box;
@@ -194,8 +194,10 @@ header{
 #main {
     padding-top: 250px;
   }
- 
-.image{
+
+.headshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 250px;
-  height: auto;
-}
+ }
