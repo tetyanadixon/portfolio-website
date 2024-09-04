@@ -83,21 +83,21 @@ a {
     padding: 10px;
     border-radius: 3px;
     border: 1px solid #0c48d3;
-    transition: 0.2s opacity;
+    transition: all .2s ease;
   }
   .button:hover {
     background-color: #0c48d3;
     color: #ffffff;
     text-decoration: none;
   }
-  .button.contact {
+  .button contact {
     display: inline-block;
     background-color: transparent;
     color: #0c48d3;
     text-transform: uppercase;
     border: 1px solid #0c48d3;
   }
-  .button.contact:hover {
+  .button contact :hover {
     background-color: #0c48d3;
     color: #ffffff;
   }
@@ -126,6 +126,9 @@ a {
   }
   .row {
     margin: 25px 0;
+  }
+  .contact-button {
+    text-align: center;
   }
   #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
   #hero h3 {
@@ -214,7 +217,7 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 4px;
-    padding-top: 99px;
+    padding-top: 39px;
   }
   body {
     font-size: 18px;
@@ -274,21 +277,6 @@ Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
 
-}
-
-.button {
-  display: inline-block;
-  background-color: transparent;
-  color: #0c48d3;
-  font-weight: 400;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #0c48d3;
-  transition: 0.2s opacity;
-}
-.button:hover {
-  opacity: 0.8;
 }
 
 /* Test Illustration*/
