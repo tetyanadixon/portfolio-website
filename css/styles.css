@@ -9,6 +9,10 @@ Family: Serif
 Heading: Fino 
 Paragraphs: Spectral
 */
+
+html {
+  scroll-behavior: smooth;
+}
 header {
     background-color: #ffffff;
     padding: 10px 0 4px;
