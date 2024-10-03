@@ -205,24 +205,22 @@ a {
     width: 100%;
   }
   header{
-	width: [object Object]px; 
-	height: [object Object]px; 
 	background: #FFFFFF; 
 	border: solid #BDBDBD 1px; 
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
 	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
 	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
 }
-header{
+  header{
     position: fixed;
     width: 100%;
     display:inline-block
 }
-#main {
+  #main {
     padding-top: 100px;
   }
 
-.headshot{
+  .headshot{
   display: block;
   margin-left: auto;
   margin-right: auto;
